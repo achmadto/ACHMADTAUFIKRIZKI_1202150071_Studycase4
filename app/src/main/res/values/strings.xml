@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AchmadTaufikRizki_1202150071_StudyCase4</string>
+    <string name="label_list_mahasiswa">List Nama Mahasiswa</string>
+    <string name="label__button">Mulai Async Task</string>
+    <string name="btn_cari_gambar">Cari Gambar</string>
+    <string name="label_hint_cari_gmbar">Masukkan URL gambar</string>
+    <string name="label_cari_gambar">Cari gambar</string>
+
+    <string-array name="mahasiswa">
+        <item>Dina</item>
+        <item>Rian</item>
+        <item>Gina</item>
+        <item>Osas</item>
+        <item>Reno</item>
+        <item>Lina</item>
+        <item>Roi</item>
+        <item>Shifa</item>
+    </string-array>
+</resources>

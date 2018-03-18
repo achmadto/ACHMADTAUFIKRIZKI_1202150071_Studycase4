@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sei.achmadtaufikrizki_1202150071_studycase4.LihatGambar">
+
+    <TextView
+        android:id="@+id/labelImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:gravity="center"
+        android:text="@string/label_cari_gambar"
+        android:textSize="@dimen/label_list_mahasiswa" />
+
+    <EditText
+        android:id="@+id/linkImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelImg"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/label_hint_cari_gmbar"
+        android:text="https://kucingpedia.com/wp-content/uploads/2016/06/Gambar-Kucing-Gemuk-Lucu.jpg"
+        android:inputType="textWebEmailAddress"/>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linkImg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/btn_cari_gambar"
+        android:onClick="searchPic"/>
+
+
+    <ImageView
+        android:id="@+id/imageResult"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_below="@+id/btnSearch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_top"
+        />
+</RelativeLayout>
